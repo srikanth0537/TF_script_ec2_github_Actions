@@ -16,6 +16,6 @@ resource "aws_instance" "TF_web-server" {
   instance_type = var.instance_type
   key_name = var.key_name
   tags = {
-    Name = "var.name"
+    Name = var.name
   }
 }
