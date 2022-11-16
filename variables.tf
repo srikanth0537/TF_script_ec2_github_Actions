@@ -13,6 +13,6 @@
   }
 
   variable "key_name" {
-    default = "test-key.pem"
+    default = "test-key"
     
   }
