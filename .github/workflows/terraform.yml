@@ -3,7 +3,7 @@ name: "terraform-deploy of ec2 instances"
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
 
 jobs:
@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@main
+        uses: actions/checkout@master
 
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v2
